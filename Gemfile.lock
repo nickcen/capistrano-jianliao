@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    slackistrano (1.0.0)
+    capistrano-jianliao (0.1.0)
       capistrano (>= 3.0.1)
       json
 
@@ -42,9 +42,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  capistrano-jianliao!
   rake
   rspec
-  slackistrano!
 
 BUNDLED WITH
    1.10.6
